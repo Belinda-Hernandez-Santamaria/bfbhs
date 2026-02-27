@@ -64,7 +64,7 @@ def sum_of_values(values, key):
         sum += values[i]*key[i]
     return sum
 
-def knapsack(weights, profits, capacity, goal):
+def knapsack_problem(weights, profits, capacity, goal):
     """Solves a version of the knapsack problem using brute force.
     It searches for a combination of items that meets a weight capacity and 
     achieves or exceeds a profit goal.
